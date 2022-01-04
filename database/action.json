@@ -1,0 +1,250 @@
+[
+  {
+    "code": "action-01",
+    "nom": "Rénovation globale"
+  },
+  {
+    "code": "action-02",
+    "nom": "Construction neuve"
+  },
+  {
+    "code": "action-03",
+    "nom": "Chaudière à bûches"
+  },
+  {
+    "code": "action-04",
+    "nom": "Chaudière à granules"
+  },
+  {
+    "code": "action-05",
+    "nom": "Cuisinières à bûches"
+  },
+  {
+    "code": "action-06",
+    "nom": "Cuisinières à granulés"
+  },
+  {
+    "code": "action-07",
+    "nom": "Foyers fermés"
+  },
+  {
+    "code": "action-08",
+    "nom": "Inserts"
+  },
+  {
+    "code": "action-09",
+    "nom": "Poêle à bûches"
+  },
+  {
+    "code": "action-10",
+    "nom": "Poêle à granulés"
+  },
+  {
+    "code": "action-11",
+    "nom": "Système solaire combiné"
+  },
+  {
+    "code": "action-12",
+    "nom": "Système solaire hybride"
+  },
+  {
+    "code": "action-13",
+    "nom": "Chauffe-eau solaire"
+  },
+  {
+    "code": "action-14",
+    "nom": "Chauffe-eau thermodynamique"
+  },
+  {
+    "code": "action-15",
+    "nom": "Chaudière à haute performance énergétique"
+  },
+  {
+    "code": "action-16",
+    "nom": "Dépose d'une cuve à fioul"
+  },
+  {
+    "code": "action-17",
+    "nom": "Plancher chauffant basse température"
+  },
+  {
+    "code": "action-18",
+    "nom": "Raccordement à un réseau de chaleur"
+  },
+  {
+    "code": "action-19",
+    "nom": "Radiateur basse température"
+  },
+  {
+    "code": "action-20",
+    "nom": "Radiateur électrique à régulation électronique"
+  },
+  {
+    "code": "action-21",
+    "nom": "Fermeture isolante"
+  },
+  {
+    "code": "action-22",
+    "nom": "Protection solaire d'une toiture"
+  },
+  {
+    "code": "action-23",
+    "nom": "Protection solaire des murs"
+  },
+  {
+    "code": "action-24",
+    "nom": "Protection solaire des ouvrants"
+  },
+  {
+    "code": "action-25",
+    "nom": "Isolation thermique des combles"
+  },
+  {
+    "code": "action-26",
+    "nom": "Isolation thermique des murs par l'extérieur"
+  },
+  {
+    "code": "action-27",
+    "nom": "Isolation thermique des murs par l'intérieur"
+  },
+  {
+    "code": "action-28",
+    "nom": "Isolation thermique d'un plancher bas par l'extérieur"
+  },
+  {
+    "code": "action-29",
+    "nom": "Isolation thermique d'un plancher bas par l'intérieur"
+  },
+  {
+    "code": "action-30",
+    "nom": "Isolation thermique d'un réseau hydraulique de chauffage ou d'eau chaude sanitaire"
+  },
+  {
+    "code": "action-31",
+    "nom": "Isolation thermique d'une toiture par l'extérieur"
+  },
+  {
+    "code": "action-32",
+    "nom": "Isolation thermique d'une toiture par l'intérieur"
+  },
+  {
+    "code": "action-33",
+    "nom": "Isolation thermique d'une toiture terrasse"
+  },
+  {
+    "code": "action-34",
+    "nom": "Fenêtre avec vitrage isolant"
+  },
+  {
+    "code": "action-35",
+    "nom": "Fenêtre avec vitrage pariétodynamique"
+  },
+  {
+    "code": "action-36",
+    "nom": "Porte-fenêtre avec vitrage isolant"
+  },
+  {
+    "code": "action-37",
+    "nom": "Porte-fenêtre avec vitrage pariétodynamique"
+  },
+  {
+    "code": "action-38",
+    "nom": "Porte d'entrée donnant sur l'extérieur"
+  },
+  {
+    "code": "action-39",
+    "nom": "Pompe à chaleur air/air"
+  },
+  {
+    "code": "action-40",
+    "nom": "Pompe à chaleur air/eau"
+  },
+  {
+    "code": "action-41",
+    "nom": "Pompe à chaleur eau/eau"
+  },
+  {
+    "code": "action-42",
+    "nom": "Pompe à chaleur hybride"
+  },
+  {
+    "code": "action-43",
+    "nom": "Pompes à chaleur solaire"
+  },
+  {
+    "code": "action-44",
+    "nom": "Pompe à chaleur sol/eau"
+  },
+  {
+    "code": "action-45",
+    "nom": "Pompe à chaleur sol/sol"
+  },
+  {
+    "code": "action-46",
+    "nom": "Climatiseur"
+  },
+  {
+    "code": "action-47",
+    "nom": "Raccordement à un réseau de froid"
+  },
+  {
+    "code": "action-48",
+    "nom": "Conduit d'évacuation des produits de combustion "
+  },
+  {
+    "code": "action-49",
+    "nom": "Thermostat avec régulation performante"
+  },
+  {
+    "code": "action-50",
+    "nom": "Isolation de points singuliers d'un réseau"
+  },
+  {
+    "code": "action-51",
+    "nom": "Récupérateur de chaleur à condensation"
+  },
+  {
+    "code": "action-52",
+    "nom": "Régulation par sonde de température extérieure"
+  },
+  {
+    "code": "action-53",
+    "nom": "Robinet thermostatique"
+  },
+  {
+    "code": "action-54",
+    "nom": "Système de variation électronique de vitesse sur une pompe"
+  },
+  {
+    "code": "action-55",
+    "nom": "Optimiseur de relance"
+  },
+  {
+    "code": "action-56",
+    "nom": "Système de comptage individuel"
+  },
+  {
+    "code": "action-57",
+    "nom": "Système de régulation par programmation d'intermittence"
+  },
+  {
+    "code": "action-58",
+    "nom": "Assistance à maîtrise d'ouvrage"
+  },
+  {
+    "code": "action-59",
+    "nom": "Audit énergétique"
+  },
+  {
+    "code": "action-60",
+    "nom": "Ventilation hybride"
+  },
+  {
+    "code": "action-61",
+    "nom": "Ventilation mécanique contrôlée simple flux"
+  },
+  {
+    "code": "action-62",
+    "nom": "Ventilation mécanique contrôlée double flux"
+  }
+]

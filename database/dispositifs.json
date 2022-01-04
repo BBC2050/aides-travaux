@@ -1,0 +1,162 @@
+[
+  {
+    "code": "mpr",
+    "nom": "Ma Prime Rénov'",
+    "description": "MaPrimeRénov' permet de financer les travaux d'isolation, de chauffage, de ventilation ou d'audit énergétique d'une maison individuelle ou d'un appartement en habitat collectif.",
+    "financeur": "Agence nationale de l'habitat",
+    "type": "prime",
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "site": "https://www.maprimerenov.gouv.fr",
+    "nonCumul": [],
+    "regles": [
+      {
+        "type": "plafond",
+        "description": "Plafond cumulé de primes dont peut bénéficier un ménage",
+        "condition": null,
+        "expression": "20000"
+      },
+      {
+        "type": "ecretement",
+        "description": "Reste à charge pour les ménages relevant de la tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste'",
+        "expression": "dispositif['montantEligible'] * 0.9 - (dispositif['montantAides'] + dispositif['montantCee'])"
+      },
+      {
+        "type": "ecretement",
+        "description": "Reste à charge pour les ménages relevant de la tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'mosteste'",
+        "expression": "dispositif['montantEligible'] * 0.75 - (dispositif['montantAides'] + dispositif['montantCee'])"
+      },
+      {
+        "type": "ecretement",
+        "description": "Reste à charge pour les ménages relevant de la tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire'",
+        "expression": "dispositif['montantEligible'] * 0.6 - (dispositif['montantAides'] + dispositif['montantCee'])"
+      },
+      {
+        "type": "ecretement",
+        "description": "Reste à charge pour les ménages relevant de la tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur'",
+        "expression": "dispositif['montantEligible'] * 0.4 - (dispositif['montantAides'] + dispositif['montantCee'])"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement ou l'immeuble concerné est achevé depuis plus de quinze ans à la date de début des travaux et prestations",
+        "condition": null,
+        "expression": "batiment['age'] >= 15"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement est un appartement ou une maison individuelle",
+        "condition": null,
+        "expression": "batiment['type'] == 'maison' || batiment['type'] == 'appartement'"
+      }
+    ]
+  },
+  {
+    "code": "mprs",
+    "nom": "Ma Prime Rénov' Sérénité",
+    "description": "MaPrimeRénov' Sérénité, c’est un accompagnement conseil et une aide financière pour accompagner les ménages aux ressources modestes dans leur projet de rénovation énergétique globale de leur logement.",
+    "financeur": "Agence nationale de l'habitat",
+    "type": "prime",
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "site": "https://monprojet.anah.gouv.fr/",
+    "nonCumul": [],
+    "regles": [
+      {
+        "type": "condition",
+        "description": "Le logement ou l'immeuble concerné est achevé depuis plus de quinze ans à la date de début des travaux et prestations",
+        "condition": null,
+        "expression": "batiment['age'] >= 15"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement est un appartement ou une maison individuelle",
+        "condition": null,
+        "expression": "batiment['type'] == 'maison' || batiment['type'] == 'appartement'"
+      },
+      {
+        "type": "condition",
+        "description": "Le montant minimum des travaux est de 1 500 €",
+        "condition": null,
+        "expression": "dispositif['depenseEligible'] >= 1500"
+      },
+      {
+        "type": "condition",
+        "description": "Le demandeur n'a pas bénéficié d’un prêt à taux zéro dans les 5 ans précédent a demande",
+        "condition": null,
+        "expression": "beneficiaire['ptz'] === true"
+      },
+      {
+        "type": "condition",
+        "description": "Le demandeur ne dépasse pas le niveau de ressource fixée nationalement",
+        "condition": null,
+        "expression": "beneficiaire['tranche'] === 'tres_modeste' || beneficiaire['tranche'] === 'modeste'"
+      }
+    ]
+  },
+  {
+    "code": "cee",
+    "nom": "Prime énergie - Certificats d'économies d'énergie",
+    "description": "Le dispositif des Certificats d'économies d'énergie oblige les fournisseurs d'énergie à inciter les consommateurs à entreprendre des opérations d'économies d'énergie",
+    "financeur": "Fournisseurs d'énergie",
+    "type": "prime",
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "site": null,
+    "nonCumul": ["cee-cdp"],
+    "regles": [
+      {
+        "type": "facteur",
+        "description": "Facteur de conversion kWhc -> €",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste'",
+        "expression": "action['valorisationCeeClassique']"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur de conversion kWhc -> €",
+        "condition": "beneficiaire['tranche'] === 'modeste' || beneficiaire['tranche'] === 'intermediaire' || beneficiaire['tranche'] === 'superieur'",
+        "expression": "action['valorisationCeePrecarite']"
+      }
+    ]
+  },
+  {
+    "code": "cee-cdp",
+    "nom": "Coup de pouce",
+    "description": "",
+    "financeur": "Fournisseurs d'énergie",
+    "type": "prime",
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "site": null,
+    "nonCumul": ["cee"],
+    "regles": []
+  },
+  {
+    "code": "eptz",
+    "nom": "Eco-prêt à taux zéro",
+    "description": "L'éco-prêt à taux zéro (éco-PTZ) permet de financer des travaux de rénovation énergétique des logements.",
+    "financeur": "Organismes de crédit",
+    "type": "avance",
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "site": "https://agirpourlatransition.ademe.fr/particuliers/finances/tout-savoir-leco-pret-a-taux-zero-2021",
+    "nonCumul": [],
+    "regles": [
+      {
+        "type": "condition",
+        "description": "Le logement ou l'immeuble concerné est achevé depuis plus de deux ans à la date de début des travaux et prestations",
+        "condition": null,
+        "expression": "batiment['age'] >= 2"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement est un appartement ou une maison individuelle",
+        "condition": null,
+        "expression": "batiment['type'] == 'maison' || batiment['type'] == 'appartement'"
+      }
+    ]
+  }
+]

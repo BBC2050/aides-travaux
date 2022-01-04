@@ -1,0 +1,17 @@
+[
+  {
+    "categorie": "Bâtiment",
+    "nom": "type",
+    "description": "Type de bâtiment faisant l'objet d'une action d'économies d'énergie"
+  },
+  {
+    "categorie": "Bâtiment",
+    "nom": "age",
+    "description": "Ancienneté du bâtiment faisant l'objet d'une action d'économies d'énergie"
+  },
+  {
+    "categorie": "Foyer",
+    "nom": "",
+    "description": ""
+  }
+]

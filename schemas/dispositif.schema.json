@@ -1,0 +1,92 @@
+{
+  "$id": "https://github.com/BBC2050/projet/schemas/dispositif",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dispositif",
+  "description": "Un dispositif d'aides à la rénovation énergétique",
+  "type": "object",
+  "properties": {
+    "code": {
+      "title": "Code",
+      "label": "Code",
+      "description": "Code du dispositif",
+      "type": "string",
+      "maxLength": 20
+    },
+    "nom": {
+      "title": "Nom",
+      "label": "Nom",
+      "description": "Nom du dispositif",
+      "type": "string",
+      "maxLength": 240
+    },
+    "description": {
+      "title": "Description",
+      "label": "Description",
+      "description": "Description du dispositif",
+      "type": "string",
+      "maxLength": 240
+    },
+    "financeur": {
+      "title": "Financeur",
+      "label": "Financeur",
+      "description": "Financeur du dispositif",
+      "type": "string",
+      "maxLength": 240
+    },
+    "type": {
+      "title": "Type",
+      "label": "Type",
+      "description": "Type du dispositif",
+      "type": "string",
+      "enum": ["avance", "prime", "exoneration", "autre"]
+    },
+    "dateDebut": {
+      "title": "Date de début",
+      "label": "Date de début",
+      "description": "Date d'entrée en vigueur du dispositif",
+      "type": "string",
+      "format": "date"
+    },
+    "dateFin": {
+      "title": "Date de fin",
+      "label": "Date de fin",
+      "description": "Date de fin du dispositif",
+      "type": "string",
+      "format": "date"
+    },
+    "site": {
+      "title": "Site internet",
+      "label": "Site internet",
+      "description": "Site internet du dispositif",
+      "type": "string",
+      "maxLength": 240
+    },
+    "regles": {
+      "title": "Règles",
+      "label": "Règles",
+      "description": "Règles applicables au dispositif",
+      "type": "array",
+      "items": {
+        "$ref": "/schemas/regle"
+      }
+    },
+    "perimetres": {
+      "title": "Périmètres",
+      "label": "Périmètres",
+      "description": "Périmètres d'application du dispositif",
+      "type": "array",
+      "items": {
+        "$ref": "/schemas/geo"
+      }
+    }
+  },
+  "required": [
+    "code",
+    "nom",
+    "description",
+    "financeur",
+    "type",
+    "dateDebut",
+    "conditions"
+  ]
+}

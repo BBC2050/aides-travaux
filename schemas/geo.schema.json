@@ -1,0 +1,51 @@
+{
+  "$id": "https://github.com/BBC2050/projet/schemas/geo",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Périmètre géographique",
+  "description": "Périmètre géographique applicable à un dispositif ou à une offre",
+  "type": "object",
+  "properties": {
+    "codeRegion": {
+      "title": "Code région",
+      "label": "Code région",
+      "description": "Code région",
+      "type": "string",
+      "pattern": "^[0-9]{2,2}$"
+    },
+    "codeDepartement": {
+      "title": "Code département",
+      "label": "Code département",
+      "description": "Code département",
+      "type": "string",
+      "pattern": "^[A-Z0-9]{2,2}$"
+    },
+    "codeCommune": {
+      "title": "Code commune",
+      "label": "Code commune",
+      "description": "Code commune",
+      "type": "string",
+      "pattern": "^[A-Z0-9]{5,5}$"
+    },
+    "codeEpci": {
+      "title": "Code EPCI",
+      "label": "Code EPCI",
+      "description": "Code EPCI",
+      "type": "string",
+      "maxLength": 240
+    }
+  },
+  "oneOf": [
+    {
+      "required": ["codeRegion"]
+    },
+    {
+      "required": ["codeDepartement"]
+    },
+    {
+      "required": ["codeCommune"]
+    },
+    {
+      "required": ["codeEpci"]
+    }
+  ]
+}

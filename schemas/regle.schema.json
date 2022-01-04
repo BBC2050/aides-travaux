@@ -1,0 +1,43 @@
+{
+  "$id": "https://github.com/BBC2050/projet/schemas/regle",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Règle",
+  "description": "Règle",
+  "type": "object",
+  "properties": {
+    "type": {
+      "title": "Type",
+      "label": "Type",
+      "description": "Type de règle",
+      "type": "string",
+      "enum": ["condition", "montant", "facteur", "plafond", "depense", "ecretement"]
+    },
+    "description": {
+      "title": "Description",
+      "label": "Description",
+      "description": "Description de la règle",
+      "type": "string",
+      "maxLength": 240
+    },
+    "condition": {
+      "title": "Condition",
+      "label": "Condition",
+      "description": "Condition de la règle",
+      "type": "string",
+      "maxLength": 400
+    },
+    "expression": {
+      "title": "Expression",
+      "label": "Expression",
+      "description": "Expression de la règle",
+      "type": "string",
+      "maxLength": 400
+    }
+  },
+  "required": [
+    "type",
+    "description",
+    "condition",
+    "expression"
+  ]
+}

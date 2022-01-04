@@ -1,0 +1,1450 @@
+[
+  {
+    "dispositif": "mpr",
+    "code": "mpr-bonus-01",
+    "nom": "Bonus sortie de passoire thermique",
+    "description": null,
+    "dom": true,
+    "metropole": true,
+    "bonus": true,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": [],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste'",
+        "expression": "1500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste'",
+        "expression": "1500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire'",
+        "expression": "1000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur'",
+        "expression": "500"
+      },
+      {
+        "type": "condition",
+        "description": "Etiquette énergie F ou G",
+        "condition": null,
+        "expression": "batiment['etiquetteEnergie'] === 'F' || batiment['etiquetteEnergie'] === 'G'"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-bonus-02",
+    "nom": "Bonus BBC",
+    "description": null,
+    "dom": true,
+    "metropole": true,
+    "bonus": true,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": [],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste'",
+        "expression": "1500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste'",
+        "expression": "1500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire'",
+        "expression": "1000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur'",
+        "expression": "500"
+      },
+      {
+        "type": "condition",
+        "description": "Etiquette énergie après travaux est A ou B",
+        "condition": null,
+        "expression": "batiment['bbc'] === true"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-se-01",
+    "nom": "Assistance à maîtrise d'ouvrage",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-58"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire",
+        "condition": null,
+        "expression": "150"
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "400"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-se-02",
+    "nom": "Audit énergétique",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-59"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste'",
+        "expression": "500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste'",
+        "expression": "400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'intermediaire'",
+        "expression": "300"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'superieur'",
+        "expression": "0"
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "800"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-01",
+    "nom": "Chaudières à gaz très haute performance",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-15"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "1200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "800"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": null
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "4000"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-02",
+    "nom": "Chaudières à granulés",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "10000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "8000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "4000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "18000"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-03",
+    "nom": "Chaudières à bûches",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "8000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "6500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "3000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "16000"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-04",
+    "nom": "Poêles à granulés",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "3000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "2500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "1500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "5000"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-05",
+    "nom": "Poêles à bûches",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "2500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "2000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "1000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "4000"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-06",
+    "nom": "Foyers fermés, inserts",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "2000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "1200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "600"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "4000"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-07",
+    "nom": "Chauffage solaire",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "10000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "8000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "4000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "16000"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-08",
+    "nom": "Chauffe-eau solaire",
+    "description": null,
+    "metropole": true,
+    "dom": false,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "4000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "3000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "2000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "7000"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-09",
+    "nom": "Chauffe-eau solaire",
+    "description": null,
+    "metropole": false,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "2000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "1500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "1000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "2600"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-10",
+    "nom": "Équipements solaires hybrides",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "2500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "2000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "1000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "4000"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-11",
+    "nom": "Pompes à chaleur géothermiques ou solarothermiques",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "10000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "8000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "4000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "18000"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-12",
+    "nom": "Pompes à chaleur air/ eau",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "4000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "3000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "2000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "12000"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-13",
+    "nom": "Chauffe-eau thermodynamique",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "1200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "800"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "3500"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-14",
+    "nom": "Réseaux de chaleur ou de froid",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "1200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "800"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "1800"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-15",
+    "nom": "Dépose d'une cuve à fioul",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "1200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "800"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "4000"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-16",
+    "nom": "Ventilation mécanique contrôlée (VMC) double flux",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-XXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "4000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "3000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "2000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "6000"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-th-17",
+    "nom": "Rénovation globale",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-01"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "0"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "0"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "7000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": "35000"
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "50000"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-en-01",
+    "nom": "Isolation thermique des fenêtres (et parois vitrées)",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-34", "action-35" ,"action-36", "action-37"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "100 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "80 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "40 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "1000 * action['quantite']"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-en-02",
+    "nom": "Isolation des murs par l'extérieur",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-26"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "75 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "60 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "40 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": "15 * action['quantite']"
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "150 * action['quantite']"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-en-03",
+    "nom": "Isolation des murs par l'intérieur",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-27"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "25 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "20 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "15 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": "7 * action['quantite']"
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "70 * action['quantite']"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-en-04",
+    "nom": "Isolation des rampants de toiture et plafonds de combles",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-25", "action-31", "action-32"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "25 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "20 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "15 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": "7 * action['quantite']"
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "75 * action['quantite']"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-en-05",
+    "nom": "Isolation des toitures terrasses",
+    "description": null,
+    "metropole": true,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-33"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "75 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "60 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "40 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": "15 * action['quantite']"
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "180 * action['quantite']"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-en-06",
+    "nom": "Protections contre le rayonnement solaire",
+    "description": null,
+    "metropole": false,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-24"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "25 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "20 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "15 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": null
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "200 * action['quantite']"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-en-07",
+    "nom": "Sur-toitures ventilées",
+    "description": null,
+    "metropole": false,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-22"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "75 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "60 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "40 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": "15 * action['quantite']"
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "110 * action['quantite']"
+      }
+    ]
+  },
+  {
+    "dispositif": "mpr",
+    "code": "mpr-en-08",
+    "nom": "Bardages ventilés",
+    "description": null,
+    "metropole": false,
+    "dom": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-23"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "75 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "60 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche intermédiaire",
+        "condition": "beneficiaire['tranche'] === 'intermediaire",
+        "expression": "40 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche supérieure",
+        "condition": "beneficiaire['tranche'] === 'superieur",
+        "expression": "15 * action['quantite']"
+      },
+      {
+        "type": "depense",
+        "description": "Dépenses éligibles",
+        "condition": null,
+        "expression": "105 * action['quantite']"
+      }
+    ]
+  },
+  {
+    "dispositif": "mprs",
+    "code": "mprs-01",
+    "nom": "Rénovation globale",
+    "description": null,
+    "dom": true,
+    "metropole": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["action-01"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "action['coutTotalHT'] * 0.5"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "action['coutTotalHT'] * 0.35"
+      },
+      {
+        "type": "plafond",
+        "description": "Plafond - Tranche très modeste",
+        "condition": "beneficiaire['tranche'] === 'tres_modeste",
+        "expression": "15000"
+      },
+      {
+        "type": "plafond",
+        "description": "Plafond - Tranche modeste",
+        "condition": "beneficiaire['tranche'] === 'modeste",
+        "expression": "10500"
+      }
+    ]
+  },
+  {
+    "dispositif": "mprs",
+    "code": "mprs-bonus-01",
+    "nom": "Bonus sortie de passoire thermique",
+    "description": null,
+    "dom": true,
+    "metropole": true,
+    "bonus": true,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": [],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire",
+        "condition": null,
+        "expression": "1500"
+      },
+      {
+        "type": "condition",
+        "description": "Etiquette énergie F ou G",
+        "condition": null,
+        "expression": "batiment['etiquetteEnergie'] === 'F' || batiment['etiquetteEnergie'] === 'G'"
+      }
+    ]
+  },
+  {
+    "dispositif": "mprs",
+    "code": "mprs-bonus-02",
+    "nom": "Bonus BBC",
+    "description": null,
+    "dom": true,
+    "metropole": true,
+    "bonus": true,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": [],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire",
+        "condition": null,
+        "expression": "1500"
+      },
+      {
+        "type": "condition",
+        "description": "Etiquette énergie après travaux est A ou B",
+        "condition": null,
+        "expression": "batiment['bbc'] === true"
+      }
+    ]
+  },
+  {
+    "dispositif": "cee",
+    "code": "bar-en-101",
+    "nom": "Isolation de combles ou de toitures",
+    "description": null,
+    "dom": true,
+    "metropole": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["XXXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire",
+        "condition": "batiment['zoneClimatique'] === 'H1'",
+        "expression": "1700 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire",
+        "condition": "batiment['zoneClimatique'] === 'H2'",
+        "expression": "1400 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire",
+        "condition": "batiment['zoneClimatique'] === 'H3'",
+        "expression": "900 * action['quantite']"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement ou l'immeuble concerné est achevé depuis plus de deux ans à la date de début des travaux et prestations",
+        "condition": null,
+        "expression": "batiment['age'] >= 2"
+      }
+    ]
+  },
+  {
+    "dispositif": "cee",
+    "code": "bar-th-104",
+    "nom": "Pompe à chaleur de type air/eau ou eau/eau ",
+    "description": null,
+    "dom": true,
+    "metropole": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["XXXXXXXX"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H1'",
+        "expression": "39700"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H2'",
+        "expression": "32500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H3'",
+        "expression": "21700"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H1'",
+        "expression": "79900"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H2'",
+        "expression": "65400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H3'",
+        "expression": "43600"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement ou l'immeuble concerné est achevé depuis plus de deux ans à la date de début des travaux et prestations",
+        "condition": null,
+        "expression": "batiment['age'] >= 2"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement est un appartement ou une maison individuelle",
+        "condition": null,
+        "expression": "batiment['type'] == 'maison' || batiment['type'] == 'appartement'"
+      }
+    ]
+  }
+]

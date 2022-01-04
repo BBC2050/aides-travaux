@@ -1,0 +1,88 @@
+{
+  "$id": "https://github.com/BBC2050/projet/schemas/offre",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Offre",
+  "description": "Une offre d'aides à la rénovation énergétique",
+  "type": "object",
+  "properties": {
+    "dispositif": {
+      "title": "Dispositif",
+      "label": "Dispositif",
+      "description": "Dispositif parent",
+      "type": "string"
+    },
+    "code": {
+      "title": "Code",
+      "label": "Code",
+      "description": "Code de l'offre",
+      "type": "string",
+      "maxLength": 20
+    },
+    "nom": {
+      "title": "Nom",
+      "label": "Nom",
+      "description": "Nom de l'offre",
+      "type": "string",
+      "maxLength": 240
+    },
+    "dom": {
+      "title": "France d'outre-mer",
+      "label": "France d'outre-mer",
+      "description": "Offre applicable en France d'outre-mer",
+      "type": "boolean"
+    },
+    "metropole": {
+      "title": "France métropolitaine",
+      "label": "France métropolitaine",
+      "description": "Offre applicable en France métropolitaine",
+      "type": "boolean"
+    },
+    "bonus": {
+      "title": "Offre bonus",
+      "label": "Offre bonus",
+      "description": "Offre bonus applicable si au moins une autre offre du même dispositif est éligible",
+      "type": "boolean"
+    },
+    "dateDebut": {
+      "title": "Date de début",
+      "label": "Date de début",
+      "description": "Date d'entrée en vigueur du dispositif",
+      "type": "string",
+      "format": "date"
+    },
+    "dateFin": {
+      "title": "Date de fin",
+      "label": "Date de fin",
+      "description": "Date de fin du dispositif",
+      "type": "string",
+      "format": "date"
+    },
+    "actions": {
+      "title": "Liste des actions éligibles",
+      "label": "Actions éligibles",
+      "description": "Liste des actions d'économies d'énergie éligibles",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 20
+      }
+    },
+    "regles": {
+      "title": "Règles",
+      "label": "Règles",
+      "description": "Règles applicables à l'offre",
+      "type": "array",
+      "items": {
+        "$ref": "/schemas/regle"
+      }
+    }
+  },
+  "required": [
+    "dispositif",
+    "code",
+    "nom",
+    "dom",
+    "metropole",
+    "dateDebut"
+  ]
+}
