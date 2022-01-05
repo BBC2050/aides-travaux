@@ -97,7 +97,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-58"],
+    "actions": ["1"],
     "regles": [
       {
         "type": "montant",
@@ -123,7 +123,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-59"],
+    "actions": ["2"],
     "regles": [
       {
         "type": "montant",
@@ -167,7 +167,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-15"],
+    "actions": ["71"],
     "regles": [
       {
         "type": "montant",
@@ -211,7 +211,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["62"],
     "regles": [
       {
         "type": "montant",
@@ -255,7 +255,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["61"],
     "regles": [
       {
         "type": "montant",
@@ -299,7 +299,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["64", "68"],
     "regles": [
       {
         "type": "montant",
@@ -343,7 +343,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["63", "67"],
     "regles": [
       {
         "type": "montant",
@@ -387,7 +387,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["65", "66"],
     "regles": [
       {
         "type": "montant",
@@ -431,7 +431,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["69"],
     "regles": [
       {
         "type": "montant",
@@ -475,7 +475,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["91"],
     "regles": [
       {
         "type": "montant",
@@ -519,7 +519,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["91"],
     "regles": [
       {
         "type": "montant",
@@ -563,7 +563,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["70"],
     "regles": [
       {
         "type": "montant",
@@ -607,7 +607,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["79", "80", "81"],
     "regles": [
       {
         "type": "montant",
@@ -651,7 +651,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["76"],
     "regles": [
       {
         "type": "montant",
@@ -695,7 +695,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["92"],
     "regles": [
       {
         "type": "montant",
@@ -739,7 +739,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["73", "83"],
     "regles": [
       {
         "type": "montant",
@@ -783,7 +783,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["3"],
     "regles": [
       {
         "type": "montant",
@@ -827,7 +827,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-XXXXXXX"],
+    "actions": ["53"],
     "regles": [
       {
         "type": "montant",
@@ -871,7 +871,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-01"],
+    "actions": ["120"],
     "regles": [
       {
         "type": "montant",
@@ -915,7 +915,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-34", "action-35" ,"action-36", "action-37"],
+    "actions": ["41", "42" ,"43", "44"],
     "regles": [
       {
         "type": "montant",
@@ -959,7 +959,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-26"],
+    "actions": ["11"],
     "regles": [
       {
         "type": "montant",
@@ -1003,7 +1003,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-27"],
+    "actions": ["12"],
     "regles": [
       {
         "type": "montant",
@@ -1047,7 +1047,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-25", "action-31", "action-32"],
+    "actions": ["21", "22", "23"],
     "regles": [
       {
         "type": "montant",
@@ -1091,7 +1091,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-33"],
+    "actions": ["24"],
     "regles": [
       {
         "type": "montant",
@@ -1135,7 +1135,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-24"],
+    "actions": ["47"],
     "regles": [
       {
         "type": "montant",
@@ -1179,7 +1179,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-22"],
+    "actions": ["25"],
     "regles": [
       {
         "type": "montant",
@@ -1223,7 +1223,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-23"],
+    "actions": ["13"],
     "regles": [
       {
         "type": "montant",
@@ -1267,7 +1267,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["action-01"],
+    "actions": ["120"],
     "regles": [
       {
         "type": "montant",
@@ -1357,7 +1357,7 @@
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["XXXXXXXX"],
+    "actions": ["21", "22", "23"],
     "regles": [
       {
         "type": "montant",
@@ -1387,51 +1387,993 @@
   },
   {
     "dispositif": "cee",
-    "code": "bar-th-104",
-    "nom": "Pompe à chaleur de type air/eau ou eau/eau ",
+    "code": "bar-en-102",
+    "nom": "Isolation des murs",
     "description": null,
     "dom": true,
     "metropole": true,
     "bonus": false,
     "dateDebut": "2022-01-01",
     "dateFin": null,
-    "actions": ["XXXXXXXX"],
+    "actions": ["11", "12"],
     "regles": [
       {
         "type": "montant",
-        "description": "Montant forfaitaire",
-        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H1'",
+        "description": "Montant forfaitaire | Electricité | H1",
+        "condition": "batiment['zoneClimatique'] === 'H1' && batiment['energieChauffage'] === 'electricite'",
+        "expression": "2400 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire | Electricité | H2",
+        "condition": "batiment['zoneClimatique'] === 'H2' && batiment['energieChauffage'] === 'electricite'",
+        "expression": "2000 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire | Electricité | H3",
+        "condition": "batiment['zoneClimatique'] === 'H3' && batiment['energieChauffage'] === 'electricite'",
+        "expression": "1300 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire | Autres | H1",
+        "condition": "batiment['zoneClimatique'] === 'H1' && batiment['energieChauffage'] !== 'electricite'",
+        "expression": "3800 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire | Autres | H2",
+        "condition": "batiment['zoneClimatique'] === 'H2' && batiment['energieChauffage'] !== 'electricite'",
+        "expression": "3100 * action['quantite']"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire | Autres | H3",
+        "condition": "batiment['zoneClimatique'] === 'H3' && batiment['energieChauffage'] !== 'electricite'",
+        "expression": "2100 * action['quantite']"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement ou l'immeuble concerné est achevé depuis plus de deux ans à la date de début des travaux et prestations",
+        "condition": null,
+        "expression": "batiment['age'] >= 2"
+      }
+    ]
+  },
+  {
+    "dispositif": "cee",
+    "code": "bar-th-101",
+    "nom": "Chauffe-eau solaire",
+    "description": null,
+    "dom": false,
+    "metropole": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["91"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Zone H1",
+        "condition": "batiment['zoneClimatique'] === 'H1'",
+        "expression": "21500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Zone H2",
+        "condition": "batiment['zoneClimatique'] === 'H2'",
+        "expression": "24100"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Zone H3",
+        "condition": "batiment['zoneClimatique'] === 'H3'",
+        "expression": "27600"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement ou l'immeuble concerné est achevé depuis plus de deux ans à la date de début des travaux et prestations",
+        "condition": null,
+        "expression": "batiment['age'] >= 2"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement est une maison individuelle",
+        "condition": null,
+        "expression": "batiment['type'] === 'maison'"
+      }
+    ]
+  },
+  {
+    "dispositif": "cee",
+    "code": "bar-th-104",
+    "nom": "Pompe à chaleur de type air/eau ou eau/eau",
+    "description": null,
+    "dom": true,
+    "metropole": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["76", "77"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H1 | 102% ≤ ηs < 110%",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 102 && action['etas'] < 110",
+        "expression": "24500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H2 | 102% ≤ ηs < 110%",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 102 && action['etas'] < 110",
+        "expression": "20100"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H3 | 102% ≤ ηs < 110%",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 102 && action['etas'] < 110",
+        "expression": "13400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H1 | 110% ≤ ηs < 120%",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 110 && action['etas'] < 120",
+        "expression": "32200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H2 | 110% ≤ ηs < 120%",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 110 && action['etas'] < 120",
+        "expression": "26400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H3 | 110% ≤ ηs < 120%",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 110 && action['etas'] < 120",
+        "expression": "17600"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H1 | 120% ≤ ηs",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 120",
         "expression": "39700"
       },
       {
         "type": "montant",
-        "description": "Montant forfaitaire",
-        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H2'",
+        "description": "Montant forfaitaire - Appartement | H2 | 120% ≤ ηs",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 120",
         "expression": "32500"
       },
       {
         "type": "montant",
-        "description": "Montant forfaitaire",
-        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H3'",
+        "description": "Montant forfaitaire - Appartement | H3 | 120% ≤ ηs",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 120",
         "expression": "21700"
       },
       {
         "type": "montant",
-        "description": "Montant forfaitaire",
-        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H1'",
+        "description": "Montant forfaitaire - Maison | H1 | 102% ≤ ηs < 110%",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 102 && action['etas'] < 110",
+        "expression": "52700"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H2 | 102% ≤ ηs < 110%",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 102 && action['etas'] < 110",
+        "expression": "43100"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H3 | 102% ≤ ηs < 110%",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 102 && action['etas'] < 110",
+        "expression": "28700"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H1 | 110% ≤ ηs < 120%",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 110 && action['etas'] < 120",
+        "expression": "66400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H2 | 110% ≤ ηs < 120%",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 110 && action['etas'] < 120",
+        "expression": "54400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H3 | 110% ≤ ηs < 120%",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 110 && action['etas'] < 120",
+        "expression": "36200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H1 | 120% ≤ ηs",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 120",
         "expression": "79900"
       },
       {
         "type": "montant",
-        "description": "Montant forfaitaire",
-        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H2'",
+        "description": "Montant forfaitaire - Maison | H2 | 120% ≤ ηs",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 120",
         "expression": "65400"
       },
       {
         "type": "montant",
-        "description": "Montant forfaitaire",
-        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H3'",
+        "description": "Montant forfaitaire - Maison | H3 | 120% ≤ ηs",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 120",
         "expression": "43600"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Appartement | S < 35",
+        "condition": "batiment['type'] === 'appartement' && action['surfaceChauffee'] > 35",
+        "expression": "0.5"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Appartement | 35 ≤ S < 60",
+        "condition": "batiment['type'] === 'appartement' && action['surfaceChauffee'] >= 35 && action['surfaceChauffee'] < 60",
+        "expression": "0.7"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Appartement | 60 ≤ S < 70",
+        "condition": "batiment['type'] === 'appartement' && action['surfaceChauffee'] >= 60 && action['surfaceChauffee'] < 70",
+        "expression": "1"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Appartement | 70 ≤ S < 90",
+        "condition": "batiment['type'] === 'appartement' && action['surfaceChauffee'] >= 70 && action['surfaceChauffee'] < 90",
+        "expression": "1.2"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Appartement | 90 ≤ S < 110",
+        "condition": "batiment['type'] === 'appartement' && action['surfaceChauffee'] >= 90 && action['surfaceChauffee'] < 110",
+        "expression": "1.5"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Appartement | 110 ≤ S ≤ 130",
+        "condition": "batiment['type'] === 'appartement' && action['surfaceChauffee'] >= 110 && action['surfaceChauffee'] <= 130",
+        "expression": "1.9"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Appartement | 130 < S",
+        "condition": "batiment['type'] === 'appartement' && action['surfaceChauffee'] > 130",
+        "expression": "2.5"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | S < 70",
+        "condition": "batiment['type'] === 'maison' && action['surfaceChauffee'] > 70",
+        "expression": "0.5"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | 70 ≤ S < 90",
+        "condition": "batiment['type'] === 'maison' && action['surfaceChauffee'] >= 70 && action['surfaceChauffee'] < 90",
+        "expression": "0.7"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | 90 ≤ S < 110",
+        "condition": "batiment['type'] === 'maison' && action['surfaceChauffee'] >= 90 && action['surfaceChauffee'] < 110",
+        "expression": "1"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | 110 ≤ S ≤ 130",
+        "condition": "batiment['type'] === 'maison' && action['surfaceChauffee'] >= 110 && action['surfaceChauffee'] <= 130",
+        "expression": "1.1"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | 130 < S",
+        "condition": "batiment['type'] === 'maison' && action['surfaceChauffee'] > 130",
+        "expression": "1.6"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement ou l'immeuble concerné est achevé depuis plus de deux ans à la date de début des travaux et prestations",
+        "condition": null,
+        "expression": "batiment['age'] >= 2"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement est un appartement ou une maison individuelle",
+        "condition": null,
+        "expression": "batiment['type'] == 'maison' || batiment['type'] == 'appartement'"
+      }
+    ]
+  },
+  {
+    "dispositif": "cee",
+    "code": "bar-th-106",
+    "nom": "Chaudière à haute performance énergétique",
+    "description": null,
+    "dom": true,
+    "metropole": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["71"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H1",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H1'",
+        "expression": "46900"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H2",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H2'",
+        "expression": "39600"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H3",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H3'",
+        "expression": "28500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H1",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H1'",
+        "expression": "24800"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H2",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H2'",
+        "expression": "21200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H3",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H3'",
+        "expression": "15800"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | S < 70",
+        "condition": "batiment['type'] === 'maison' && batiment['surface'] > 70",
+        "expression": "0.5"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | 70 ≤ S < 90",
+        "condition": "batiment['type'] === 'maison' && batiment['surface'] >= 70 && batiment['surface'] < 90",
+        "expression": "0.7"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | 90 ≤ S < 110",
+        "condition": "batiment['type'] === 'maison' && batiment['surface'] >= 90 && batiment['surface'] < 110",
+        "expression": "1"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | 110 ≤ S ≤ 130",
+        "condition": "batiment['type'] === 'maison' && batiment['surface'] >= 110 && batiment['surface'] <= 130",
+        "expression": "1.1"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | 130 < S",
+        "condition": "batiment['type'] === 'maison' && batiment['surface'] > 130",
+        "expression": "1.6"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement ou l'immeuble concerné est achevé depuis plus de deux ans à la date de début des travaux et prestations",
+        "condition": null,
+        "expression": "batiment['age'] >= 2"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement est un appartement ou une maison individuelle",
+        "condition": null,
+        "expression": "batiment['type'] == 'maison' || batiment['type'] == 'appartement'"
+      }
+    ]
+  },
+  {
+    "dispositif": "cee",
+    "code": "bar-th-112",
+    "nom": "Appareil indépendant de chauffage au bois",
+    "description": null,
+    "dom": true,
+    "metropole": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["63", "64", "65", "66", "67", "68"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - H1",
+        "condition": "batiment['zoneClimatique'] === 'H1'",
+        "expression": "38200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - H2",
+        "condition": "batiment['zoneClimatique'] === 'H2'",
+        "expression": "31300"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - H3",
+        "condition": "batiment['zoneClimatique'] === 'H3'",
+        "expression": "20900"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement ou l'immeuble concerné est achevé depuis plus de deux ans à la date de début des travaux et prestations",
+        "condition": null,
+        "expression": "batiment['age'] >= 2"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement est une maison individuelle",
+        "condition": null,
+        "expression": "batiment['type'] === 'maison'"
+      }
+    ]
+  },
+  {
+    "dispositif": "cee",
+    "code": "bar-th-113",
+    "nom": "Chaudière biomasse",
+    "description": null,
+    "dom": true,
+    "metropole": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["61", "62"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - H1",
+        "condition": "batiment['zoneClimatique'] === 'H1'",
+        "expression": "41300"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - H2",
+        "condition": "batiment['zoneClimatique'] === 'H2'",
+        "expression": "33800"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - H3",
+        "condition": "batiment['zoneClimatique'] === 'H3'",
+        "expression": "26300"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement ou l'immeuble concerné est achevé depuis plus de deux ans à la date de début des travaux et prestations",
+        "condition": null,
+        "expression": "batiment['age'] >= 2"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement est une maison individuelle",
+        "condition": null,
+        "expression": "batiment['type'] === 'maison'"
+      }
+    ]
+  },
+  {
+    "dispositif": "cee",
+    "code": "bar-th-129",
+    "nom": "Pompe à chaleur de type air/air",
+    "description": null,
+    "dom": true,
+    "metropole": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["75"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H1",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H1'",
+        "expression": "21300"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H2",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H2'",
+        "expression": "17400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H3",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H3'",
+        "expression": "11600"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H1 | 3.9 ≤ SCOP < 4.3",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H1' && action['scop'] >= 3.9 && action['scop'] < 4.3",
+        "expression": "77900"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H2 | 3.9 ≤ SCOP < 4.3",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H2' && action['scop'] >= 3.9 && action['scop'] < 4.3",
+        "expression": "63700"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H3 | 3.9 ≤ SCOP < 4.3",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H3' && action['scop'] >= 3.9 && action['scop'] < 4.3",
+        "expression": "42500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H1 | 4.3 ≤ SCOP",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H1' && action['scop'] >= 4.3",
+        "expression": "80200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H2 | 4.3 ≤ SCOP",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H2' && action['scop'] >= 4.3",
+        "expression": "65600"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H3 | 4.3 ≤ SCOP",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H3' && action['scop'] >= 4.3",
+        "expression": "43700"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - S < 35",
+        "condition": "action['surfaceChauffee'] > 35",
+        "expression": "0.5"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - 35 ≤ S < 60",
+        "condition": "action['surfaceChauffee'] >= 35 && action['surfaceChauffee'] < 60",
+        "expression": "0.7"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - 60 ≤ S < 70",
+        "condition": "action['surfaceChauffee'] >= 60 && action['surfaceChauffee'] < 70",
+        "expression": "1"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - 70 ≤ S < 90",
+        "condition": "action['surfaceChauffee'] >= 70 && action['surfaceChauffee'] < 90",
+        "expression": "1.2"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - 90 ≤ S < 110",
+        "condition": "action['surfaceChauffee'] >= 90 && action['surfaceChauffee'] < 110",
+        "expression": "1.5"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - 110 ≤ S ≤ 130",
+        "condition": "action['surfaceChauffee'] >= 110 && action['surfaceChauffee'] <= 130",
+        "expression": "1.9"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - 130 < S",
+        "condition": "action['surfaceChauffee'] > 130",
+        "expression": "2.5"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement ou l'immeuble concerné est achevé depuis plus de deux ans à la date de début des travaux et prestations",
+        "condition": null,
+        "expression": "batiment['age'] >= 2"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement est un appartement ou une maison individuelle",
+        "condition": null,
+        "expression": "batiment['type'] == 'maison' || batiment['type'] == 'appartement'"
+      }
+    ]
+  },
+  {
+    "dispositif": "cee",
+    "code": "bar-th-143",
+    "nom": "Système solaire combiné",
+    "description": null,
+    "dom": false,
+    "metropole": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["69"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - H1",
+        "condition": "batiment['zoneClimatique'] === 'H1'",
+        "expression": "134800"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - H2",
+        "condition": "batiment['zoneClimatique'] === 'H2'",
+        "expression": "121000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - H3",
+        "condition": "batiment['zoneClimatique'] === 'H3'",
+        "expression": "100500"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement ou l'immeuble concerné est achevé depuis plus de deux ans à la date de début des travaux et prestations",
+        "condition": null,
+        "expression": "batiment['age'] >= 2"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement est une maison individuelle",
+        "condition": null,
+        "expression": "batiment['type'] === 'maison'"
+      }
+    ]
+  },
+  {
+    "dispositif": "cee",
+    "code": "bar-th-148",
+    "nom": "Chauffe-eau thermodynamique à accumulation",
+    "description": null,
+    "dom": true,
+    "metropole": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["92"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison",
+        "condition": "batiment['type'] === 'maison'",
+        "expression": "15600"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement",
+        "condition": "batiment['type'] === 'appartement'",
+        "expression": "11900"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement ou l'immeuble concerné est achevé depuis plus de deux ans à la date de début des travaux et prestations",
+        "condition": null,
+        "expression": "batiment['age'] >= 2"
+      },
+      {
+        "type": "condition",
+        "description": "Le logement est une maison individuelle",
+        "condition": null,
+        "expression": "batiment['type'] === 'maison'"
+      }
+    ]
+  },
+  {
+    "dispositif": "cee",
+    "code": "bar-th-159",
+    "nom": "Pompe à chaleur hybride",
+    "description": null,
+    "dom": true,
+    "metropole": true,
+    "bonus": false,
+    "dateDebut": "2022-01-01",
+    "dateFin": null,
+    "actions": ["78"],
+    "regles": [
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H1 | 111 ≤ ηS < 120",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 111 && action['etas'] < 120",
+        "expression": "39600"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H2 | 111 ≤ ηS < 120",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 111 && action['etas'] < 120",
+        "expression": "33900"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H3 | 111 ≤ ηS < 120",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 111 && action['etas'] < 120",
+        "expression": "25600"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H1 | 120 ≤ ηS < 130",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 120 && action['etas'] < 130",
+        "expression": "48200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H2 | 120 ≤ ηS < 130",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 120 && action['etas'] < 130",
+        "expression": "41300"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H3 | 120 ≤ ηS < 130",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 120 && action['etas'] < 130",
+        "expression": "31200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H1 | 130 ≤ ηS < 140",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 130 && action['etas'] < 140",
+        "expression": "55900"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H2 | 130 ≤ ηS < 140",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 130 && action['etas'] < 140",
+        "expression": "47900"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H3 | 130 ≤ ηS < 140",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 130 && action['etas'] < 140",
+        "expression": "36200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H1 | 140 ≤ ηS < 150",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 140 && action['etas'] < 150",
+        "expression": "62600"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H2 | 140 ≤ ηS < 150",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 140 && action['etas'] < 150",
+        "expression": "53600"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H3 | 140 ≤ ηS < 150",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 140 && action['etas'] < 150",
+        "expression": "40500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H1 | 150 ≤ ηS < 160",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 150 && action['etas'] < 160",
+        "expression": "68400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H2 | 150 ≤ ηS < 160",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 150 && action['etas'] < 160",
+        "expression": "58600"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H3 | 150 ≤ ηS < 160",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 150 && action['etas'] < 160",
+        "expression": "44200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H1 | 160% ≤ ηs",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 160",
+        "expression": "73400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H2 | 160% ≤ ηs",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 160",
+        "expression": "62900"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Appartement | H3 | 160% ≤ ηs",
+        "condition": "batiment['type'] === 'appartement' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 160",
+        "expression": "47500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H1 | 111 ≤ ηS < 120",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 111 && action['etas'] < 120",
+        "expression": "74100"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H2 | 111 ≤ ηS < 120",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 111 && action['etas'] < 120",
+        "expression": "62800"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H3 | 111 ≤ ηS < 120",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 111 && action['etas'] < 120",
+        "expression": "45600"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H1 | 120 ≤ ηS < 130",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 120 && action['etas'] < 130",
+        "expression": "90300"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H2 | 120 ≤ ηS < 130",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 120 && action['etas'] < 130",
+        "expression": "76500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H3 | 120 ≤ ηS < 130",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 120 && action['etas'] < 130",
+        "expression": "55400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H1 | 130 ≤ ηS < 140",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 130 && action['etas'] < 140",
+        "expression": "104800"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H2 | 130 ≤ ηS < 140",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 130 && action['etas'] < 140",
+        "expression": "88800"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H3 | 130 ≤ ηS < 140",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 130 && action['etas'] < 140",
+        "expression": "64400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H1 | 140 ≤ ηS < 150",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 140 && action['etas'] < 150",
+        "expression": "117200"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H2 | 140 ≤ ηS < 150",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 140 && action['etas'] < 150",
+        "expression": "99400"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H3 | 140 ≤ ηS < 150",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 140 && action['etas'] < 150",
+        "expression": "72000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H1 | 150 ≤ ηS < 160",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 150 && action['etas'] < 160",
+        "expression": "128000"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H2 | 150 ≤ ηS < 160",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 150 && action['etas'] < 160",
+        "expression": "108500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H3 | 150 ≤ ηS < 160",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 150 && action['etas'] < 160",
+        "expression": "78700"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H1 | 160% ≤ ηs",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H1' && action['etas'] >= 160",
+        "expression": "137500"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H2 | 160% ≤ ηs",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H2' && action['etas'] >= 160",
+        "expression": "116600"
+      },
+      {
+        "type": "montant",
+        "description": "Montant forfaitaire - Maison | H3 | 160% ≤ ηs",
+        "condition": "batiment['type'] === 'maison' && batiment['zoneClimatique'] === 'H3' && action['etas'] >= 160",
+        "expression": "84500"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Appartement | S < 35",
+        "condition": "batiment['type'] === 'appartement' && action['surfaceChauffee'] > 35",
+        "expression": "0.5"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Appartement | 35 ≤ S < 60",
+        "condition": "batiment['type'] === 'appartement' && action['surfaceChauffee'] >= 35 && action['surfaceChauffee'] < 60",
+        "expression": "0.7"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Appartement | 60 ≤ S < 70",
+        "condition": "batiment['type'] === 'appartement' && action['surfaceChauffee'] >= 60 && action['surfaceChauffee'] < 70",
+        "expression": "1"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Appartement | 70 ≤ S < 90",
+        "condition": "batiment['type'] === 'appartement' && action['surfaceChauffee'] >= 70 && action['surfaceChauffee'] < 90",
+        "expression": "1.2"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Appartement | 90 ≤ S < 110",
+        "condition": "batiment['type'] === 'appartement' && action['surfaceChauffee'] >= 90 && action['surfaceChauffee'] < 110",
+        "expression": "1.5"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Appartement | 110 ≤ S ≤ 130",
+        "condition": "batiment['type'] === 'appartement' && action['surfaceChauffee'] >= 110 && action['surfaceChauffee'] <= 130",
+        "expression": "1.9"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Appartement | 130 < S",
+        "condition": "batiment['type'] === 'appartement' && action['surfaceChauffee'] > 130",
+        "expression": "2.5"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | S < 70",
+        "condition": "batiment['type'] === 'maison' && action['surfaceChauffee'] > 70",
+        "expression": "0.5"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | 70 ≤ S < 90",
+        "condition": "batiment['type'] === 'maison' && action['surfaceChauffee'] >= 70 && action['surfaceChauffee'] < 90",
+        "expression": "0.7"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | 90 ≤ S < 110",
+        "condition": "batiment['type'] === 'maison' && action['surfaceChauffee'] >= 90 && action['surfaceChauffee'] < 110",
+        "expression": "1"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | 110 ≤ S ≤ 130",
+        "condition": "batiment['type'] === 'maison' && action['surfaceChauffee'] >= 110 && action['surfaceChauffee'] <= 130",
+        "expression": "1.1"
+      },
+      {
+        "type": "facteur",
+        "description": "Facteur correctif - Maison | 130 < S",
+        "condition": "batiment['type'] === 'maison' && action['surfaceChauffee'] > 130",
+        "expression": "1.6"
       },
       {
         "type": "condition",

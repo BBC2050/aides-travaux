@@ -19,6 +19,13 @@
       "type": "string",
       "maxLength": 240
     },
+    "unite": {
+      "title": "Unité",
+      "label": "Unité",
+      "description": "Unité",
+      "type": "string",
+      "enum": ["m²", "nombre", "U"]
+    },
     "description": {
       "title": "Description",
       "label": "Description",
@@ -26,20 +33,17 @@
       "type": "string",
       "maxLength": 240
     },
-    "tags": {
-      "title": "Tags",
-      "label": "Tags",
-      "description": "Tags",
-      "type": "array",
-      "items": {
-        "type": "string",
-        "maxLength": 40
-      }
+    "caracteristiques": {
+      "title": "Caractéristiques",
+      "label": "Caractéristiques",
+      "description": "Caractéristiques techniques de l'action",
+      "type": "string",
+      "maxLength": 1000
     }
   },
   "required": [
     "code",
     "nom",
-    "description"
+    "unite"
   ]
 }

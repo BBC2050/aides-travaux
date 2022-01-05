@@ -1,0 +1,302 @@
+[
+  {
+    "code": "1",
+    "nom": "Assistance à maîtrise d'ouvrage",
+    "unite": "nombre"
+  },
+  {
+    "code": "2",
+    "nom": "Audit énergétique",
+    "unite": "U"
+  },
+  {
+    "code": "3",
+    "nom": "Dépose d'une cuve à fioul",
+    "unite": "U"
+  },
+  {
+    "code": "11",
+    "nom": "Isolation thermique des murs par l'extérieur",
+    "unite": "m²"
+  },
+  {
+    "code": "12",
+    "nom": "Isolation thermique des murs par l'intérieur",
+    "unite": "m²"
+  },
+  {
+    "code": "13",
+    "nom": "Protection solaire des murs",
+    "unite": "m²"
+  },
+  {
+    "code": "21",
+    "nom": "Isolation thermique des combles",
+    "unite": "m²"
+  },
+  {
+    "code": "22",
+    "nom": "Isolation thermique d'une toiture par l'extérieur",
+    "unite": "m²"
+  },
+  {
+    "code": "23",
+    "nom": "Isolation thermique d'une toiture par l'intérieur",
+    "unite": "m²"
+  },
+  {
+    "code": "24",
+    "nom": "Isolation thermique d'une toiture terrasse",
+    "unite": "m²"
+  },
+  {
+    "code": "25",
+    "nom": "Protection solaire d'une toiture",
+    "unite": "m²"
+  },
+  {
+    "code": "31",
+    "nom": "Isolation thermique d'un plancher bas par l'extérieur",
+    "unite": "m²"
+  },
+  {
+    "code": "32",
+    "nom": "Isolation thermique d'un plancher bas par l'intérieur",
+    "unite": "m²"
+  },
+  {
+    "code": "41",
+    "nom": "Fenêtre avec vitrage isolant",
+    "unite": "nombre"
+  },
+  {
+    "code": "42",
+    "nom": "Fenêtre avec vitrage pariétodynamique",
+    "unite": "nombre"
+  },
+  {
+    "code": "43",
+    "nom": "Porte-fenêtre avec vitrage isolant",
+    "unite": "nombre"
+  },
+  {
+    "code": "44",
+    "nom": "Porte-fenêtre avec vitrage pariétodynamique",
+    "unite": "nombre"
+  },
+  {
+    "code": "45",
+    "nom": "Porte d'entrée donnant sur l'extérieur",
+    "unite": "nombre"
+  },
+  {
+    "code": "46",
+    "nom": "Fermeture isolante",
+    "unite": "nombre"
+  },
+  {
+    "code": "47",
+    "nom": "Protection solaire des ouvrants",
+    "unite": "m²"
+  },
+  {
+    "code": "51",
+    "nom": "Ventilation hybride",
+    "unite": "U"
+  },
+  {
+    "code": "52",
+    "nom": "Ventilation mécanique contrôlée simple flux",
+    "unite": "U"
+  },
+  {
+    "code": "53",
+    "nom": "Ventilation mécanique contrôlée double flux",
+    "unite": "U"
+  },
+  {
+    "code": "61",
+    "nom": "Chaudière à bûches",
+    "unite": "U"
+  },
+  {
+    "code": "62",
+    "nom": "Chaudière à granules",
+    "unite": "U"
+  },
+  {
+    "code": "63",
+    "nom": "Cuisinières à bûches",
+    "unite": "U"
+  },
+  {
+    "code": "64",
+    "nom": "Cuisinières à granulés",
+    "unite": "U"
+  },
+  {
+    "code": "65",
+    "nom": "Foyers fermés",
+    "unite": "U"
+  },
+  {
+    "code": "66",
+    "nom": "Inserts",
+    "unite": "U"
+  },
+  {
+    "code": "67",
+    "nom": "Poêle à bûches",
+    "unite": "U"
+  },
+  {
+    "code": "68",
+    "nom": "Poêle à granulés",
+    "unite": "U"
+  },
+  {
+    "code": "69",
+    "nom": "Système solaire combiné",
+    "unite": "U"
+  },
+  {
+    "code": "70",
+    "nom": "Système solaire hybride",
+    "unite": "U"
+  },
+  {
+    "code": "71",
+    "nom": "Chaudière à haute performance énergétique",
+    "unite": "U"
+  },
+  {
+    "code": "72",
+    "nom": "Plancher chauffant basse température",
+    "unite": "m²"
+  },
+  {
+    "code": "73",
+    "nom": "Raccordement à un réseau de chaleur",
+    "unite": "U"
+  },
+  {
+    "code": "74",
+    "nom": "Radiateur électrique à régulation électronique",
+    "unite": "nombre"
+  },
+  {
+    "code": "75",
+    "nom": "Pompe à chaleur air/air",
+    "unite": "U"
+  },
+  {
+    "code": "76",
+    "nom": "Pompe à chaleur air/eau",
+    "unite": "U"
+  },
+  {
+    "code": "77",
+    "nom": "Pompe à chaleur eau/eau",
+    "unite": "U"
+  },
+  {
+    "code": "78",
+    "nom": "Pompe à chaleur hybride",
+    "unite": "U"
+  },
+  {
+    "code": "79",
+    "nom": "Pompes à chaleur solaire",
+    "unite": "U"
+  },
+  {
+    "code": "80",
+    "nom": "Pompe à chaleur sol/eau",
+    "unite": "U"
+  },
+  {
+    "code": "81",
+    "nom": "Pompe à chaleur sol/sol",
+    "unite": "U"
+  },
+  {
+    "code": "82",
+    "nom": "Climatiseur",
+    "unite": "U"
+  },
+  {
+    "code": "83",
+    "nom": "Raccordement à un réseau de froid",
+    "unite": "U"
+  },
+  {
+    "code": "91",
+    "nom": "Chauffe-eau solaire",
+    "unite": "U"
+  },
+  {
+    "code": "92",
+    "nom": "Chauffe-eau thermodynamique",
+    "unite": "U"
+  },
+  {
+    "code": "101",
+    "nom": "Thermostat avec régulation performante",
+    "unite": "U"
+  },
+  {
+    "code": "102",
+    "nom": "Régulation par sonde de température extérieure",
+    "unite": "U"
+  },
+  {
+    "code": "103",
+    "nom": "Robinet thermostatique",
+    "unite": "nombre"
+  },
+  {
+    "code": "104",
+    "nom": "Système de comptage individuel",
+    "unite": "U"
+  },
+  {
+    "code": "105",
+    "nom": "Système de régulation par programmation d'intermittence",
+    "unite": "U"
+  },
+  {
+    "code": "111",
+    "nom": "Radiateur basse température",
+    "unite": "nombre"
+  },
+  {
+    "code": "112",
+    "nom": "Conduit d'évacuation des produits de combustion",
+    "unite": "U"
+  },
+  {
+    "code": "113",
+    "nom": "Isolation de points singuliers d'un réseau",
+    "unite": "nombre"
+  },
+  {
+    "code": "114",
+    "nom": "Récupérateur de chaleur à condensation",
+    "unite": "nombre"
+  },
+  {
+    "code": "115",
+    "nom": "Isolation thermique d'un réseau hydraulique de chauffage ou d'eau chaude sanitaire",
+    "unite": "m²"
+  },
+  {
+    "code": "120",
+    "nom": "Rénovation globale",
+    "unite": "m²"
+  },
+  {
+    "code": "121",
+    "nom": "Construction neuve",
+    "unite": "m²"
+  }
+]

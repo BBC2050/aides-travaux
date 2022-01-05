@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/BBC2050/projet/schemas/simulation",
+  "$id": "https://github.com/BBC2050/projet/schemas/maprimerenov",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Simulation",
   "description": "Simulation d'aides travaux",
@@ -24,13 +24,6 @@
           "description": "Etiquette énergie après travaux A ou B",
           "type": "boolean"
         },
-        "energieChauffage": {
-          "title": "Energie de chauffage",
-          "label": "Energie de chauffage",
-          "description": "Energie de chauffage principale avant travaux",
-          "type": "string",
-          "enum": ["electricite", "gaz_naturel", "fioul", "pac", "bois", "gpl", "charbon"]
-        },
         "etiquetteEnergie": {
           "title": "Etiquette énergie",
           "label": "Etiquette énergie",
@@ -38,35 +31,19 @@
           "type": "string",
           "enum": ["A", "B", "B", "C", "D", "E", "F", "G"]
         },
-        "surface": {
-          "title": "Surface habitable",
-          "label": "Surface habitable",
-          "description": "Surface habitable du bâtiment",
-          "type": "number"
-        },
         "type": {
           "title": "Type",
           "label": "Type",
           "description": "Type de bâtiment",
           "type": "string",
           "enum": ["maison", "appartement", "immeuble"]
-        },
-        "zoneClimatique": {
-          "title": "Zone climatique",
-          "label": "Zone climatique",
-          "description": "Zone climatique",
-          "type": "string",
-          "enum": ["H1", "H2", "H3"]
         }
       },
       "required": [
         "age",
         "bbc",
-        "energieChauffage",
         "etiquetteEnergie",
-        "surface",
-        "type",
-        "zoneClimatique"
+        "type"
       ]
     },
     "beneficiaire": {
@@ -113,26 +90,11 @@
             "type": "string",
             "pattern": "^[0-9]$"
           },
-          "coutTotalHT": {
-            "title": "Cout total HT",
-            "label": "Cout total HT",
-            "description": "Cout total HT de l'action d'économies d'énergie",
-            "type": "number",
-            "minimum": 0
-          },
           "coutTotalTTC": {
             "title": "Cout total TTC",
             "label": "Cout total TTC",
             "description": "Cout total TTC de l'action d'économies d'énergie",
             "type": "number",
-            "minimum": 0
-          },
-          "etas": {
-            "title": "Efficacité énergétique saisonnière",
-            "label": "Efficacité énergétique saisonnière",
-            "description": "Efficacité énergétique saisonnière de l'équipement installé",
-            "type": "number",
-            "unit": "%",
             "minimum": 0
           },
           "montantAides": {
@@ -155,70 +117,13 @@
             "description": "Surface en m² ou nombre d'équipements installé dans le cadre de l'opération",
             "type": "number",
             "minimum": 0
-          },
-          "scop": {
-            "title": "Coefficient de performance saisonnier",
-            "label": "Coefficient de performance saisonnier",
-            "description": "Coefficient de performance saisonnier de l'équipement installé",
-            "type": "number",
-            "minimum": 0
-          },
-          "surfaceChauffee": {
-            "title": "Surface chauffée",
-            "label": "Surface chauffée",
-            "description": "Surface chauffée par l'équipement installé",
-            "type": "number",
-            "minimum": 0
-          },
-          "valorisationCeeClassique": {
-            "title": "Valorisation CEE classique",
-            "label": "Valorisation CEE classique",
-            "description": "Montant indicatif de la valorisation CEE classique",
-            "type": "number",
-            "minimum": 0
-          },
-          "valorisationCeePrecarite": {
-            "title": "Valorisation CEE précarité",
-            "label": "Valorisation CEE précarité",
-            "description": "Montant indicatif de la valorisation CEE précarité",
-            "type": "number",
-            "minimum": 0
           }
         },
         "required": [
-          "coutTotalHT",
           "coutTotalTTC",
           "montantAides",
           "montantCee",
-          "quantite",
-          "valorisationCeeClassique",
-          "valorisationCeePrecarite"
-        ],
-        "allOf": [
-          {
-            "if": {
-              "properties": { "code": { "enum": ["76", "77", "78"] } }
-            },
-            "then": {
-              "required": ["etas"]
-            }
-          },
-          {
-            "if": {
-              "properties": { "code": { "enum": ["75"] } }
-            },
-            "then": {
-              "required": ["scop"]
-            }
-          },
-          {
-            "if": {
-              "properties": { "code": { "enum": ["75", "76", "77", "78"] } }
-            },
-            "then": {
-              "required": ["surfaceChauffee"]
-            }
-          }
+          "quantite"
         ]
       }
     },
@@ -230,23 +135,14 @@
       "uniqueItems": true,
       "items": {
         "type": "string",
-        "enum": ["mpr", "mprs", "cee", "cee-cdp", "eptz"]
-      },
-      "default": ["mpr", "mprs", "cee"]
-    },
-    "geo": {
-      "title": "Périmètre géographique",
-      "label": "Périmètre géographique",
-      "description": "Périmètre géographique",
-      "type": "object",
-      "$ref": "/schemas/geo"
+        "constant": "mpr"
+      }
     }
   },
   "required": [
     "batiment",
     "beneficiaire",
     "action",
-    "dispositifs",
-    "geo"
+    "dispositifs"
   ]
 }

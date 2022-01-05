@@ -118,6 +118,16 @@ Type : **float**
 Variable : **coutTotalTTC**
 Type : **float**
 
+### Coefficient de performance saisonnier - SCOP
+
+Variable : **scop**
+Type : **float**
+
+### Efficacité énergétique saisonnière - Etas
+
+Variable : **etas**
+Type : **float**
+
 ### Montant des aides hors CEE
 
 Variable : **montantAides**
@@ -131,6 +141,13 @@ Type : **float**
 ### Quantité
 
 Variable : **quantite**
+Type : **float**
+
+### Surface chauffée
+
+Surface chaufée par l'équipement installé
+
+Variable : **surfaceChauffee**
 Type : **float**
 
 ### Valorisation CEE classique
