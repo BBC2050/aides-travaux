@@ -245,8 +245,7 @@
   "required": [
     "batiment",
     "beneficiaire",
-    "action",
-    "dispositifs",
+    "actions",
     "geo"
   ]
 }
