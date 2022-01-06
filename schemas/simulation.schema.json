@@ -56,7 +56,7 @@
           "label": "Zone climatique",
           "description": "Zone climatique",
           "type": "string",
-          "enum": ["H1", "H2", "H3"]
+          "enum": ["H1", "H2", "H3", "DOM"]
         }
       },
       "required": [

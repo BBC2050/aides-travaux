@@ -33,19 +33,5 @@
       "type": "string",
       "maxLength": 240
     }
-  },
-  "oneOf": [
-    {
-      "required": ["codeRegion"]
-    },
-    {
-      "required": ["codeDepartement"]
-    },
-    {
-      "required": ["codeCommune"]
-    },
-    {
-      "required": ["codeEpci"]
-    }
-  ]
+  }
 }
