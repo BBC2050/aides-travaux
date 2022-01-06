@@ -8,7 +8,8 @@
     "dateDebut": "2022-01-01",
     "dateFin": null,
     "site": "https://www.maprimerenov.gouv.fr",
-    "nonCumul": [],
+    "perimetre": null,
+    "exclusions": [],
     "regles": [
       {
         "type": "plafond",
@@ -63,7 +64,8 @@
     "dateDebut": "2022-01-01",
     "dateFin": null,
     "site": "https://monprojet.anah.gouv.fr/",
-    "nonCumul": [],
+    "exclusions": [],
+    "perimetre": null,
     "regles": [
       {
         "type": "condition",
@@ -106,7 +108,8 @@
     "dateDebut": "2022-01-01",
     "dateFin": null,
     "site": null,
-    "nonCumul": ["cee-cdp"],
+    "exclusions": ["cee-cdp"],
+    "perimetre": null,
     "regles": [
       {
         "type": "facteur",
@@ -131,7 +134,8 @@
     "dateDebut": "2022-01-01",
     "dateFin": null,
     "site": null,
-    "nonCumul": ["cee"],
+    "exclusions": ["cee"],
+    "perimetre": null,
     "regles": []
   },
   {
@@ -143,7 +147,8 @@
     "dateDebut": "2022-01-01",
     "dateFin": null,
     "site": "https://agirpourlatransition.ademe.fr/particuliers/finances/tout-savoir-leco-pret-a-taux-zero-2021",
-    "nonCumul": [],
+    "exclusions": [],
+    "perimetre": null,
     "regles": [
       {
         "type": "condition",

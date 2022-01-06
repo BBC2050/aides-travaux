@@ -70,14 +70,21 @@
         "$ref": "/schemas/regle"
       }
     },
-    "perimetres": {
-      "title": "Périmètres",
-      "label": "Périmètres",
-      "description": "Périmètres d'application du dispositif",
+    "exclusions": {
+      "title": "Dispositifs non cumulables",
+      "label": "Dispositifs non cumulables",
+      "description": "Liste des dispositifs non cumulables",
       "type": "array",
       "items": {
-        "$ref": "/schemas/geo"
+        "type": "string"
       }
+    },
+    "perimetre": {
+      "title": "Périmètre",
+      "label": "Périmètre",
+      "description": "Périmètre d'application du dispositif",
+      "type": ["object", "null"],
+      "$ref": "/schemas/geo"
     }
   },
   "required": [
@@ -90,7 +97,8 @@
     "dateFin",
     "site",
     "conditions",
-    "regles",
-    "perimetres"
+    "exclusions",
+    "perimetre",
+    "regles"
   ]
 }
