@@ -1,0 +1,114 @@
+{
+  "$id": "https://github.com/BBC2050/projet/schemas/simulation-collectif",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Simulation",
+  "description": "Simulation d'aides travaux pour le secteur individuel",
+  "type": "object",
+  "properties": {
+    "batiment": {
+      "title": "Bâtiment",
+      "label": "Bâtiment",
+      "description": "Bâtiment faisant l'objet de travaux d'économies d'énergie",
+      "type": "object",
+      "properties": {
+        "zoneClimatique": {
+          "title": "Zone climatique",
+          "label": "Zone climatique",
+          "description": "Zone climatique",
+          "type": "string",
+          "enum": ["H1", "H2", "H3", "DOM"]
+        }
+      },
+      "required": [
+        "zoneClimatique"
+      ]
+    },
+    "beneficiaire": {
+      "title": "Bénéficiaire",
+      "label": "Bénéficiaire",
+      "description": "Bénéficiaire des aides travaux",
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "actions": {
+      "title": "Liste des actions",
+      "label": "Liste des actions",
+      "description": "Liste des actions simulées",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "title": "Code de l'action",
+            "label": "Code de l'action",
+            "description": "Référence interne de l'action d'économies d'énergie",
+            "type": "string",
+            "pattern": "^\\d*$"
+          },
+          "coutTotalHT": {
+            "title": "Cout total HT",
+            "label": "Cout total HT",
+            "description": "Cout total HT de l'action d'économies d'énergie",
+            "type": "number",
+            "minimum": 0
+          },
+          "coutTotalTTC": {
+            "title": "Cout total TTC",
+            "label": "Cout total TTC",
+            "description": "Cout total TTC de l'action d'économies d'énergie",
+            "type": "number",
+            "minimum": 0
+          },
+          "quantite": {
+            "title": "Quantité",
+            "label": "Quantité",
+            "description": "Surface en m² ou nombre d'équipements installé dans le cadre de l'opération",
+            "type": "number",
+            "minimum": 0
+          },
+          "valorisationCeeClassique": {
+            "title": "Valorisation CEE classique",
+            "label": "Valorisation CEE classique",
+            "description": "Montant indicatif de la valorisation CEE classique",
+            "type": "number",
+            "minimum": 0
+          },
+          "valorisationCeePrecarite": {
+            "title": "Valorisation CEE précarité",
+            "label": "Valorisation CEE précarité",
+            "description": "Montant indicatif de la valorisation CEE précarité",
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "coutTotalHT",
+          "coutTotalTTC",
+          "quantite",
+          "valorisationCeeClassique",
+          "valorisationCeePrecarite"
+        ]
+      }
+    },
+    "dispositifs": {
+      "title": "Liste des dispositifs",
+      "label": "Liste des dispositifs",
+      "description": "Liste des dispositifs simulés",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": []
+      }
+    },
+    "geo": {
+      "title": "Périmètre géographique",
+      "label": "Périmètre géographique",
+      "description": "Périmètre géographique",
+      "type": "object",
+      "$ref": "/schemas/geo"
+    }
+  },
+  "required": []
+}
