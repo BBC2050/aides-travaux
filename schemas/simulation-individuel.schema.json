@@ -234,7 +234,7 @@
       },
       "default": ["mpr", "mprs", "cee"]
     },
-    "geo": {
+    "perimetre": {
       "title": "Périmètre géographique",
       "label": "Périmètre géographique",
       "description": "Périmètre géographique",
@@ -247,6 +247,6 @@
     "beneficiaire",
     "actions",
     "dispositifs",
-    "geo"
+    "perimetre"
   ]
 }
