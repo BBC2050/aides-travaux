@@ -23,7 +23,7 @@
       "title": "Condition",
       "label": "Condition",
       "description": "Condition de la règle",
-      "type": "string",
+      "type": ["string", "null"],
       "maxLength": 400
     },
     "expression": {

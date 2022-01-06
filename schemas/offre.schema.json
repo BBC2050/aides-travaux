@@ -54,7 +54,7 @@
       "title": "Date de fin",
       "label": "Date de fin",
       "description": "Date de fin du dispositif",
-      "type": "string",
+      "type": ["string", "null"],
       "format": "date"
     },
     "actions": {
@@ -84,6 +84,9 @@
     "dom",
     "metropole",
     "bonus",
-    "dateDebut"
+    "dateDebut",
+    "dateFin",
+    "actions",
+    "regles"
   ]
 }

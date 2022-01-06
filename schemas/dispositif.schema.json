@@ -51,14 +51,14 @@
       "title": "Date de fin",
       "label": "Date de fin",
       "description": "Date de fin du dispositif",
-      "type": "string",
+      "type": ["string", "null"],
       "format": "date"
     },
     "site": {
       "title": "Site internet",
       "label": "Site internet",
       "description": "Site internet du dispositif",
-      "type": "string",
+      "type": ["string", "null"],
       "maxLength": 240
     },
     "regles": {
@@ -87,6 +87,10 @@
     "financeur",
     "type",
     "dateDebut",
-    "conditions"
+    "dateFin",
+    "site",
+    "conditions",
+    "regles",
+    "perimetres"
   ]
 }

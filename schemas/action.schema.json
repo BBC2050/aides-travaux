@@ -30,20 +30,22 @@
       "title": "Description",
       "label": "Description",
       "description": "Description de l'action",
-      "type": "string",
+      "type": ["string", "null"],
       "maxLength": 240
     },
     "caracteristiques": {
       "title": "Caractéristiques",
       "label": "Caractéristiques",
       "description": "Caractéristiques techniques de l'action",
-      "type": "string",
+      "type": ["string", "null"],
       "maxLength": 1000
     }
   },
   "required": [
     "code",
     "nom",
-    "unite"
+    "unite",
+    "description",
+    "caracteristiques"
   ]
 }
