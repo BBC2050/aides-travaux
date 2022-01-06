@@ -10,7 +10,7 @@
       "label": "Code",
       "description": "Code de l'action",
       "type": "string",
-      "maxLength": 20
+      "pattern": "^\\d$"
     },
     "nom": {
       "title": "Nom",

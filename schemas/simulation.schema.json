@@ -111,7 +111,7 @@
             "label": "Code de l'action",
             "description": "Référence interne de l'action d'économies d'énergie",
             "type": "string",
-            "pattern": "^[0-9]$"
+            "pattern": "^\\d$"
           },
           "coutTotalHT": {
             "title": "Cout total HT",
